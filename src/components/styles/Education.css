@@ -1,0 +1,37 @@
+.education {
+    padding: 100px 10%;
+}
+
+.education-card {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 20px;
+    padding: 32px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.education-card:hover {
+    transform: translateY(-5px);
+    border-color: #38bdf8;
+}
+
+.education-card h3 {
+    color: #38bdf8;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.college {
+    color: #f8fafc;
+    font-size: 1.15rem;
+    margin-bottom: 0.75rem;
+}
+
+.cgpa,
+.year {
+    color: #cbd5e1;
+    margin-bottom: 0.5rem;
+}
